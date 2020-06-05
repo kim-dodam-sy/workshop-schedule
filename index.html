@@ -1,12 +1,781 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1> [ TestTest ]</h1>
-    
-</body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Rootsoft Workshop</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#rentCarInfo">차량</a></li>
+					<li><a href="#acmdInfo">숙소</a></li>
+					<li><a href="#activity">볼거리</a></li>
+					<li><a href="#eacting">먹거리</a></li>
+				</ul>
+			</nav>
+
+		<!-- Top -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1><strong>Rootsoft Workshop</strong></h1>
+							</header>
+							<p>
+								! WORKSHOP !
+							</p>
+							<a href="#rentCarInfo" class="button large scrolly">'차량'</a>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- 차량 -->
+			<article id="rentCarInfo" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>About Me</h2>
+					</header>
+					<div class="row aln-center">
+						<!-- <div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-address-card"></span>
+								<h3>Profile</h3>
+								<p>
+									<strong>이름.&nbsp;&nbsp;&nbsp;김수연</strong><br>
+									<strong>지역.&nbsp;&nbsp;&nbsp;서울 / 제주</strong><br>
+									<strong>경력사항.&nbsp;&nbsp;&nbsp;신입</strong><br>
+									
+								</p>
+							</section>
+						</div> -->
+						<section class="box style1">
+							<table>
+								<thead>
+									<tr>
+										<td>업체명</td>
+										<td>차종</td>
+										<td>대여료</td>
+										<td>보험료</td>
+										<td>대여료+보험료</td>
+										<td>주유방법</td>
+										<td>주행료</td>
+										<td>예상 주유비(주행료) / 100km</td>
+										<td>총 예상 비용 / 100km</td>
+										<td>예상 주유비(주행료) / 200km</td>
+										<td>총 예상 비용 / 200km</td>
+									</tr>
+								</thead>
+							</table>
+						</section>
+					</div>
+					<footer>
+						<a href="#acmdInfo" class="button large scrolly">'숙박'정보 보러가기'</a>
+					</footer>
+				</div>
+			</article> 
+
+		<!-- 숙박 -->
+			<article id="acmdInfo" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Skills</h2>
+					</header>
+
+					<div class="row">
+						<div class="col-12">
+
+							<div class="dv-skills">
+								<h3>Operating System</h3>
+								<div class="dv-skills-img">
+									<img class="skills-img" src="images/skill/window.png">
+								</div>
+								<div class="dv-skills-info"></div>
+							</div>
+							
+							<div class="dv-skills">
+								<h3 style="cursor: pointer;" id="h-lang">Language</h3>
+								<div class="dv-skills-img">
+									<img class="skills-img" src="images/skill/java.png">
+									<img class="skills-img" src="images/skill/js.png">
+									<img class="skills-img" src="images/skill/html.png">
+									<img class="skills-img" src="images/skill/css.png">
+									<img class="skills-img" src="images/skill/python.png">
+								</div>
+								<button class="dv-skills-bt" id="bt-lang">자세히</button>
+								<div id="dv-lang" class="dv-skills-info">
+									<h4>Java</h4>
+									<ul>
+										<li>Java를 직접 설치 및 설정 가능</li>
+										<li>Java의 기본 문법과 객체지향적 특징 숙지</li>
+										<li>자료구조인 Map, List 등을 자유롭게 사용 가능(Java 8 가능)</li>
+									</ul>
+									<h4>JavaScript</h4>
+									<ul>
+										<li>Javascript 를 객체화 시켜 재활용 및 함수 호출에 맞게 운용 가능</li>
+									</ul>
+									<h4>HTML5</h4>
+									<ul>
+										<li>예전 XHTML 방식이 아닌 새로운 HTML5 방식으로 UI 구성 가능</li>
+									</ul>
+									<h4>CSS3</h4>
+									<ul>
+										<li>HTML5 호환성을 가지는 CSS3 구현 가능 및 웹 퍼블리싱에 필요한 기본적인 기술 보유</li>
+									</ul>
+									<h4>Python (공부중)</h4>
+									<ul>
+										<li>Python(or Aanaconda)를 직접 설치 및 설정 가능</li>
+										<li>기본적인 문법, 클래스와 메소드에 대한 이해</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="dv-skills">
+								<h3 style="cursor: pointer;" id="h-db">DBMS</h3>
+								<div class="dv-skills-img">
+									<img class="skills-img" src="images/skill/oracle.png">
+									<img class="skills-img" src="images/skill/mongodb.png">
+									<img class="skills-img" src="images/skill/erdCloud.png">
+								</div>
+								<button class="dv-skills-bt" id="bt-db">자세히</button>
+								<div id="dv-db" class="dv-skills-info">
+									<h4>Oracle DB</h4>
+									<ul>
+										<li>Oracle DB 및 Mongo DB 직접 설치 및 설정 가능</li>
+										<li>CRUD 관련 쿼리는 기본적으로 구현 가능</li>
+										<li>JOIN에 대한 다양한 문법, 페이징 쿼리, 통계 쿼리 같은 복잡한 쿼리도 구현 가능</li>
+									</ul>
+									<h4>Mongo DB</h4>
+									<ul>
+										<li>MongoDB를 직접 설치 및 설정 가능</li>
+										<li>SQL CRUD 관련 쿼리는 기본적으로 구현 가능</li>
+									</ul>
+									<h4>DB모델링</h4>
+									<ul>
+										<li>ERD를 통하여다른 데이터 모델 간 엔티티 맵핑 관계를 정의하고, 교차 엔티티 구현 가능</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="dv-skills">
+								<h3 style="cursor: pointer;" id="h-fw">FrameWork</h3>
+								<div class="dv-skills-img">
+									<img class="skills-img" src="images/skill/spring.png">
+									<img class="skills-img" src="images/skill/JQuery.jpg">
+									<img class="skills-img" src="images/skill/Mybatis.png">
+									<img class="skills-img" src="images/skill/nodejs.png">
+									<img class="skills-img" src="images/skill/phaser.png">
+								</div>
+								<button class="dv-skills-bt" id="bt-fw">자세히</button>
+								<div id="dv-fw" class="dv-skills-info">
+									<h4>jsp & servlet</h4>
+									<ul>
+										<li>DB, 커넥션풀, 파일업로드, MVC 패턴의 이해</li>
+										<li>게시판(답변, 페이징 포함) 구현</li>
+									</ul>
+									<h4>Spring Framework</h4>
+									<ul>
+										<li>STS를 사용하여 표준 스프링 프레임워크 직접 설정 가능</li>
+										<li>추가 플러그인 구현, 연동 프레임워크와 호환성에 맞게 구축 가능</li>
+									</ul>
+									<h4>Mybatis</h4>
+									<ul>
+										<li>Mybatis 의 각종 mapper 설정 가능 및 동적 SQL 실무 적용 가능</li>
+									</ul>
+									<h4>JQuery</h4>
+									<ul>
+										<li>JQuery 문법과 활용법 숙지 및 다양한 응용 가능</li>
+									</ul>
+									<h4>Ajax</h4>
+									<ul>
+										<li>동기 데이터 처리방식에 대한 이해</li>
+										<li>자바 컨트롤러와 통신을 통하여 URL과 값 전달 가능</li>
+									</ul>
+									<h4>Node.js</h4>
+									<ul>
+										<li>Node JS 개발환경 구축</li>
+										<li>기본 제공되는 모듈에 대한 이해 및 활용</li>
+										<li>HTTP 모듈을 이용한 웹 요청 처리: GET, POST 요청 처리</li>
+										<li>Express 프레임워크 사용 모듈의 원리 이해 및 활용</li>
+										<li>MongoDB 연결 및 MongoDB를 활용한 게시판(답변, 페이징 처리) 구현 가능</li>
+									</ul>
+									<h4>Phaser</h4>
+									<ul>
+										<li>Phaser 의 기본 메소드 및 전달 방식에 대한 이해</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="dv-skills">
+								<h3 style="cursor: pointer;" id="h-ed">Editor</h3>
+								<div class="dv-skills-img">
+									<img class="skills-img" src="images/skill/eclipse.png">
+									<img class="skills-img" src="images/skill/vscode.png">
+									<img class="skills-img" src="images/skill/codesandbox1.png">
+									<img class="skills-img" src="images/skill/jupyter.png">
+								</div>
+								<button class="dv-skills-bt" id="bt-ed">자세히</button>
+								<div id="dv-ed" class="dv-skills-info">
+									<h4>Eclipse, VS code, codesandbox, jupyter</h4>
+									<ul>
+										<li>툴에 대한 기본적인 이해와 숙련된 사용</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="dv-skills">
+								<h3 style="cursor: pointer;" id="h-etc">Etc.</h3>
+								<div class="dv-skills-img">
+									<img class="skills-img" src="images/skill/tiled.png">
+								</div>
+								<button class="dv-skills-bt" id="bt-etc">자세히</button>
+								<div id="dv-etc" class="dv-skills-info">
+									<h4>Tiled</h4>
+									<ul>
+										<li>툴의 기본 사용법 인지 및 JSON 방식 map의 phaser 연동 방법 이해</li>
+									</ul>
+								</div>
+							</div>
+
+							<footer>
+								<a href="#activity" class="button large scrolly">'볼 거리'정보  보러가기'</a>
+							</footer>
+
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- 볼거리 -->
+			<article id="activity" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Project</h2>
+					</header>
+
+					<div class="row">
+						<div class="col-12">
+
+							<!-- 3차 프로젝트 -->
+							<article class="box-pj style2">
+								<!-- 프로젝트명 -->
+								<div class="dv-title">
+									<h3>
+										<a href="https://github.com/DodamKim/MyPortfolio/tree/master/project/3rd" title="코드 저장소 Github로 연결됩니다.">
+											3rd.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Craft Marche&nbsp;&nbsp;&nbsp;&nbsp;[개인]<br>
+											<b style="font-size: initial;">- 진행중 -</b></a></h3>
+								</div>
+								<!-- 프로젝트 내용 -->
+								<div class="dv-con">
+									<!-- 메인 이미지 -->
+									<div id="pj-img" class="dv-img">
+										<a href="https://github.com/DodamKim/MyPortfolio/tree/master/project/3rd" title="코드 저장소 Github로 연결됩니다.">
+											<img src="images/pic00.jpg"/></a>
+									</div>
+									<!-- 프로젝트 상세 내용 -->
+									<div id="pj-info" class="dv-info">
+										<table>
+											<tbody>
+												<tr>
+													<td class="left">프로젝트명. </td>
+													<td><ul><li>New Craft Marche</li></ul></td>
+												</tr>
+												<tr>
+													<td class="left">프로젝트목표. </td>
+													<td><ul><li>GUI로 구현한 1차 프로젝트 craft marche의 웹 구현</li></ul></td>
+												</tr>
+												<tr>
+													<td class="left">개발기간. </td>
+													<td><ul><li>2020.02.12 ~ (미정)</li></ul></td>
+												</tr>
+												<tr>
+													<td class="left">개발환경. </td>
+													<td>
+														<ul class="ul-info">
+															<li>적용 기술 및 도구 (예정)
+																<br>&nbsp;&nbsp;&nbsp;&nbsp;- Java, Javascript, Spring, Mybatis, JQeury, Ajax
+																<br>&nbsp;&nbsp;&nbsp;&nbsp;- STS, VS code, Git</li>
+															<li>DBMS (예정)
+																<br>&nbsp;&nbsp;&nbsp;&nbsp;- Oracle DB</li>
+														</ul>
+													</td>
+												</tr>
+												<tr>
+													<td class="left">담당업무.<br>(진행중) </td>
+													<td>
+														<ul class="ul-info">
+															<li>DB 설계 수정 - ERD 수정</li>
+															<li>STS 통한 Spring 개발 환경 구축</li>
+															<li></li>
+														</ul>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<!-- 관련 버튼들 -->
+								<!-- <div id="" class="dv-bts">
+									<button id="bt-slide-view" class="" title="총 41장의 PPT 슬라이드입니다.">PPT Slide View</button>
+									<button id="bt-web-view" class="" title="웹사이트 시연 영상입니다.">Web Pilot Video</button>
+									<button id="bt-game-view" class="" title="게임 플레이 시연 영상입니다.">Game Pilot Video</button>
+									<button id="bt-go-game"  title="실제 게임을 플레이 할 수 있습니다. (이동:방향키 / 박스생성:클릭)">Play Game</button>
+								</div> -->
+								<!-- 버튼 클릭 후 토글되는 dv -->
+								<!--<div id="slide-view" class="slide-dv">
+									<div id="slide-ct" class="slideshow-container">
+									</div>
+									<div id="slide-dot" style="text-align:center">
+									</div>
+								</div>
+								<div id="video-view" class="video-dv"></div>-->
+							</article>
+
+							<!-- 2차 프로젝트 -->
+							<article class="box-pj style2">
+								<!-- 프로젝트명 -->
+								<div class="dv-title">
+									<h3>
+										<a href="https://github.com/DodamKim/MyPortfolio/tree/master/project/2nd" title="코드 저장소 Github로 연결됩니다.">
+											2nd.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adventure of Rabbit&nbsp;&nbsp;&nbsp;&nbsp;[팀]</a></h3>
+								</div>
+								<!-- 프로젝트 내용 -->
+								<div class="dv-con">
+									<!-- 메인 이미지 -->
+									<div id="pj-img" class="dv-img">
+										<a href="https://github.com/DodamKim/MyPortfolio/tree/master/project/2nd" title="코드 저장소 Github로 연결됩니다.">
+											<img src="images/pj2-main01.png"/></a><br>
+										<a href="https://github.com/DodamKim/MyPortfolio/tree/master/project/2nd" title="코드 저장소 Github로 연결됩니다.">
+											<img src="images/pj2-main02.png"/></a><br>
+										<a href="https://github.com/DodamKim/MyPortfolio/tree/master/project/2nd" title="코드 저장소 Github로 연결됩니다.">
+											<img src="images/pj2-main03.png"/></a><br>
+										<a href="https://github.com/DodamKim/MyPortfolio/tree/master/project/2nd" title="코드 저장소 Github로 연결됩니다.">
+											<img src="images/pj2-main04.png"/></a><br>
+									</div>
+									<!-- 프로젝트 상세 내용 -->
+									<div id="pj-info" class="dv-info">
+										<table>
+											<tbody>
+												<tr>
+													<td class="left">프로젝트명. </td>
+													<td><ul><li>토끼의 모험</li></ul></td>
+												</tr>
+												<tr>
+													<td class="left">프로젝트목표. </td>
+													<td><ul><li>실제 상용가능한 플랫폼 형식의 웹 게임 제작 및 해당 게임을 서비스하는 웹사이트 구현</li></ul></td>
+												</tr>
+												<tr>
+													<td class="left">팀명. </td>
+													<td><ul><li>캠프파이어</li></ul></td>
+												</tr>
+												<tr>
+													<td class="left">참여인원. </td>
+													<td><ul><li>총 3명 / 김수연, 이선정, 김명섭</li></ul></td>
+												</tr>
+												<tr>
+													<td class="left">개발기간. </td>
+													<td><ul><li>2019.09.19 ~ 2019.11.20</li></ul></td>
+												</tr>
+												<tr>
+													<td class="left">개발환경. </td>
+													<td>
+														<ul class="ul-info">
+															<li>적용 기술 및 도구
+																<br>&nbsp;&nbsp;&nbsp;&nbsp;- Java, Javascript, Spring, Mybatis, JQeury, Ajax, Phaser, Node.js
+																<br>&nbsp;&nbsp;&nbsp;&nbsp;- STS, VS code, Codesandbox, Google Drive</li>
+															<li>DBMS
+																<br>&nbsp;&nbsp;&nbsp;&nbsp;- Oracle DB, Mongo DB</li>
+														</ul>
+													</td>
+												</tr>
+												<tr>
+													<td class="left">담당업무. </td>
+													<td>
+														<ul class="ul-info">
+															<li>개발 엔진 선정</li>
+															<li>Phaser 의 사용법 및 기본 구동 메소드 숙지</li>
+															<li>게임 케릭터 및 게임 맵 타일 이미지 편집</li>
+															<li>게임] 3가지 레이어 구성 및 뷰/객체 클래스 각각 생성</li>
+															<li>게임] 객체와 특정 좌표에 대한 충돌 이벤트 생성</li>
+															<li>게임] 생성된 객체간의 충돌 이벤트 생성</li>
+															<li>게임] 생성 객체 중 선별적 중력 제한 적용</li>
+															<li>게임] 스테이지별 객체 생성에 대한 제한 이벤트 구현 </li>
+															<li>게임] 객체의 y 좌표를 이용하여 적 객체 제거 및 모션 이벤트 구현</li>
+															<li>Tiled 툴을 이용한 게임 map 제작</li>
+															<li>DB 설계 - 테이블/인스턴스 명세서 작성</li>
+															<li>웹] 무료 템플릿 UI 수정 - 메인, 하우투 페이지</li>
+															<li>웹] 메인 페이지 상단 - 게임 시연 영상 플레이 구현</li>
+															<li>웹] 하우투 페이지 - 게임 방법 슬라이드로 구현</li>
+															<li>웹] Mongo DB & Node.js를 이용한 커뮤니티 팁 게시판 구현</li>
+															<li>웹] Mongo DB 기본 CRUD 사용</li>
+															<li>웹] 게시글 리스트출력/등록/수정/삭제, 댓글 등록 쿼리 작성</li>
+															<li>웹] Node.js http 모듈을 이용한 GET/POST 요청 방식 구현</li>
+															<li>웹] 통계를 위한 SQL 쿼리 작성 및 통계 페이지 일부 구현</li>
+															<li>웹사이트 시연 영상 편집 및 게임 시연 영상 편집</li>
+														</ul>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<!-- 관련 버튼들 -->
+								<div id="" class="dv-bts">
+									<button id="bt-gcode-view" class="" title="codesandbox로 연결됩니다.">Codesandbox</button>
+									<button id="bt-slide-view" class="" title="총 41장의 PPT 슬라이드입니다.">PPT Slide</button>
+									<button id="bt-web-view" class="" title="웹사이트 시연 영상입니다.">Web Pilot Video</button>
+									<button id="bt-game-view" class="" title="게임 플레이 시연 영상입니다.">Game Pilot Video</button>
+									<!-- <button id="bt-go-game" title="실제 게임을 플레이 할 수 있습니다. (이동:방향키 / 박스생성:클릭)">Play Game</button> -->
+								</div>
+								<!-- 버튼 클릭 후 토글되는 dv -->
+								<div id="slide-view" class="slide-dv">
+									<div id="slide-ct" class="slideshow-container">
+									</div>
+									<div id="slide-dot" style="text-align:center">
+									</div>
+								</div>
+
+								<div id="add-view" class="add-dv"></div>
+							</article>
+									
+							<!-- 1차 프로젝트 -->
+							<article class="box-pj style2">
+								<!-- 프로젝트명 -->
+								<div class="dv-title">
+									<h3>
+										<a href="https://github.com/DodamKim/MyPortfolio/tree/master/project/1st" title="코드 저장소 Github로 연결됩니다.">
+											1st.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Craft Marche&nbsp;&nbsp;&nbsp;&nbsp;[팀]</a></h3>
+								</div>
+								<!-- 프로젝트 내용 -->
+								<div class="dv-con">
+									<!-- 메인 이미지 -->
+									<div id="pj-img" class="dv-img">
+										<a href="https://github.com/DodamKim/MyPortfolio/tree/master/project/1st" title="코드 저장소 Github로 연결됩니다.">
+											<img src="images/pj1-main01.png"/></a>
+									</div>
+									<!-- 프로젝트 상세 내용 -->
+									<div id="pj-info" class="dv-info">
+										<table>
+											<tbody>
+												<tr>
+													<td class="left">프로젝트명. </td>
+													<td><ul><li>Craft Marche</li></ul></td>
+												</tr>
+												<tr>
+													<td class="left">프로젝트목표. </td>
+													<td><ul><li>(웹 상이라는 가정하에)<br>Java GUI 만을 이용하여 유/무형의 상품을 판매하는 사이트 구현</li></ul></td>
+												</tr>
+												<tr>
+													<td class="left">팀명. </td>
+													<td><ul><li>캠프파이어</li></ul></td>
+												</tr>
+												<tr>
+													<td class="left">참여인원. </td>
+													<td><ul><li>총 4명 / 김수연, 이선정, 김명섭, 송경란</li></ul></td>
+												</tr>
+												<tr>
+													<td class="left">개발기간. </td>
+													<td><ul><li>2019.06.25 ~ 2019.08.13</li></ul></td>
+												</tr>
+												<tr>
+													<td class="left">개발환경. </td>
+													<td>
+														<ul class="ul-info">
+															<li>적용 기술 및 도구<br>&nbsp;&nbsp;&nbsp;&nbsp;- Java<br>&nbsp;&nbsp;&nbsp;&nbsp;- Eclipse, Google Drive</li>
+															<li>DBMS<br>&nbsp;&nbsp;&nbsp;&nbsp;- Oracle DB</li>
+														</ul>
+													</td>
+												</tr>
+												<tr>
+													<td class="left">담당업무. </td>
+													<td>
+														<ul class="ul-info">
+															<li>DB 설계 - 테이블 명세서, ERD 작성</li>
+															<li>GUI로 구현한 화면정의서 제작</li>
+															<li>페이지 별 DB 필요 값 정리 및 SQL 쿼리/SQL 명세서 작성</li>
+															<li>기본 틀 GUI 제작</li>
+															<li>상품/QnA/Review 페이지 구현 - UI, Vo, Dao 제작</li>
+															<li>Orcle DB 연동 후 dao 메소드 수정</li>
+														</ul>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<!-- 관련 버튼들 -->
+								<!-- <div class="dv-bts">
+									<button id="" class="" title="">Screenshot View</button>
+								</div> -->
+								<!-- 버튼 클릭 후 토글되는 dv -->
+								<div id="slide-view" class="slide-dv">
+									<div id="slide-ct" class="slideshow-container">
+									</div>
+									<div id="slide-dot" style="text-align:center">
+									</div>
+								</div>
+								<div id="web-view" class="web-dv">
+								</div>
+								<div id="game-view" class="game-dv">
+								</div>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<a href="#eacting" class="button large scrolly">'먹거리'정보 보러가기</a>
+					</footer>
+				</div>
+			</article>										
+
+		<!-- 먹거리 -->
+			<article id="eacting" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Contact</h2>
+						<hr />
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<ul class="social">
+								<li id="li-location">
+									<a href="#ct-location" class="icon solid fa-home" title="Location"></a>
+								</li>
+								<li id="li-phone">
+									<a href="#ct-phone" class="icon solid fa-mobile-alt" title="Phone"><span class="label">Cellphone</span></a>
+								</li>
+								<li id="li-email">
+									<a href="#ct-email" class="icon solid fa-envelope" title="Email"><span class="label">Email</span></a>
+								</li>
+								<li id="li-git"><a href="https://github.com/DodamKim/MyPortfolio" class="icon brands fa-github" title="Github"><span class="label">Github</span></a></li>
+							</ul>
+
+							<div class="contact-info">
+								<div id="ct-location"><h3>Location.&nbsp;&nbsp;&nbsp; 서울특별시 강서구</h3></div>
+								<div id="ct-phone"><h3>Cellphone.&nbsp;&nbsp;&nbsp; +82 10-2525-0710</h3></div>
+								<div id="ct-email"><h3>Email.&nbsp;&nbsp;&nbsp; vt.kims4@gmail.com</h3></div>
+							</div>
+							<hr />
+						</div>
+
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="https://kit.fontawesome.com/0e6723bde2.js" crossorigin="anonymous"></script>
+			<script>
+
+			function gcodeView() {
+				$("#add-view").empty();
+				var iframe = $("<iframe></iframe>").attr({
+				    src:"https://codesandbox.io/embed/adventure-of-rabbit-k87v9?autoresize=1&fontsize=14&hidenavigation=1&theme=dark",
+					title:"Adventure of Rabbit",
+     				allow:"geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb",
+     				sandbox:"allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+				}).addClass("gcode-iframe");
+				$("#add-view").append(iframe);
+			}
+
+			function slideView() {
+				$("#slide-ct").empty();
+				$("#slide-dot").empty();
+				for (var i=0; i< 41; i++) {
+					var sImg = $("<img />").attr("src","images/ppt/ppt"+i+".png").addClass("image");
+					var sPg = $("<div></div>").addClass("text").text("PPT Slide "+(i+1)+" page");
+					var sDiv = $("<div></div>").addClass("mySlides fade").append(sImg, sPg);
+					$("#slide-ct").append(sDiv);
+
+					// var sDot = $("<span></span>").addClass("dot").attr("onclick", "currentSlide("+(i+1)+")");
+					var sDot = $("<span></span>").addClass("dot").attr({onclick:"currentSlide("+(i+1)+")", title:(i+1)+"page"});
+					$("#slide-dot").append(sDot);
+				}
+				var pre = $("<b></b>").addClass("icon solid fa-angle-left prev").attr("onclick", "plusSlides(-1)");
+				var nex = $("<b></b>").addClass("icon solid fa-angle-right next").attr("onclick", "plusSlides(1)");
+				var arr = $("<div></div").append(pre, nex);
+				$("#slide-ct").append(arr);
+			} 
+
+			var webAdd = "video/main-home-intro.mp4";
+			var gameAdd = "video/game-introduce02.mp4";
+			function videoView(name, add) {
+				$("#add-view").empty();
+				var vd = $("<video >").attr({
+					id:name,
+					src:add, 
+					preload:"auto", 
+					autoplay:"true", 
+					loop:"loop", 
+					muted:"muted"
+					}).addClass("video");
+				$("#add-view").append(vd);
+			}
+
+			$(function(){
+				$("#dv-lang").hide();
+				$("#dv-db").hide();
+				$("#dv-fw").hide();
+				$("#dv-ed").hide();
+				$("#dv-etc").hide();
+
+				$("#bt-lang").click(function(){
+					$("#dv-lang").slideToggle();
+					var title = $("#bt-lang").text();
+					if( title == "자세히") {
+						$("#bt-lang").text("닫기");
+					} else if ( title == "닫기") {
+						$("#bt-lang").text("자세히");
+					}
+				});
+				$("#bt-db").click(function(){
+					$("#dv-db").slideToggle();
+					var title = $("#bt-db").text();
+					if( title == "자세히") {
+						$("#bt-db").text("닫기");
+					} else if ( title == "닫기") {
+						$("#bt-db").text("자세히");
+					}
+				});
+				$("#bt-fw").click(function(){
+					$("#dv-fw").slideToggle();
+					var title = $("#bt-fw").text();
+					if( title == "자세히") {
+						$("#bt-fw").text("닫기");
+					} else if ( title == "닫기") {
+						$("#bt-fw").text("자세히");
+					}
+				});
+				$("#bt-ed").click(function(){
+					$("#dv-ed").slideToggle();
+					var title = $("#bt-ed").text();
+					if( title == "자세히") {
+						$("#bt-ed").text("닫기");
+					} else if ( title == "닫기") {
+						$("#bt-ed").text("자세히");
+					}
+				});
+				$("#bt-etc").click(function(){
+					$("#dv-etc").slideToggle();
+					var title = $("#bt-etc").text();
+					if( title == "자세히") {
+						$("#bt-etc").text("닫기");
+					} else if ( title == "닫기") {
+						$("#bt-etc").text("자세히");
+					}
+				});
+
+				$("#bt-slide-view").click(function(){
+					$("#add-view").empty();
+					slideView();
+					$("#slide-view").slideDown("fast");
+					currentSlide(1);
+					location.href="#bt-slide-view";
+				});
+
+				$("#bt-gcode-view").click(function(){
+					$("#slide-ct").empty();
+					$("#slide-dot").empty();
+					gcodeView();
+					$("#add-view").slideDown("fast");
+					location.href="#bt-gcode-view";
+				});
+
+				$("#bt-web-view").click(function(){
+					$("#slide-ct").empty();
+					$("#slide-dot").empty();
+					videoView("web-vd", webAdd);
+					$("#add-view").slideDown("fast")
+					location.href="#bt-web-view";
+				});
+
+				$("#bt-game-view").click(function(){
+					$("#slide-ct").empty();
+					$("#slide-dot").empty();
+					videoView("game-vd", gameAdd);
+					$("#add-view").slideDown("fast");
+					location.href="#bt-game-view";
+				});
+
+				/*
+				$("#bt-go-game").click(function(){
+					location.href="https://kbcm5.csb.app/";
+				}); */
+
+				$("#ct-location").hide();
+				$("#ct-phone").hide();
+				$("#ct-email").hide();
+
+				$("#li-location").click(function(){
+					$("#ct-location").show();
+					$("#ct-phone").hide();
+					$("#ct-email").hide();
+				});
+				$("#li-phone").click(function(){
+					$("#ct-phone").show();
+					$("#ct-location").hide();
+					$("#ct-email").hide();
+				});
+				$("#li-email").click(function(){
+					$("#ct-email").show();
+					$("#ct-location").hide();
+					$("#ct-phone").hide();
+				});
+				$("#li-git").click(function(){
+					$("#ct-location").hide();
+					$("#ct-phone").hide();
+					$("#ct-email").hide();
+				});
+			});
+
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+				var i;
+				var slides = $(".mySlides");
+				var dots = $(".dot");
+				if ( n > slides.length ) {
+					slideIndex = 1
+				}
+				if ( n < 1 ) {
+					slideIndex = slides.length
+				}
+				for ( i=0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				for ( i=0; i < slides.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";  
+				dots[slideIndex-1].className += " active";
+			}
+			</script>
+	</body>
 </html>
